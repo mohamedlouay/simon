@@ -1,0 +1,71 @@
+body{
+  background-color: #7027A0;
+  text-align: center;
+}
+
+
+
+.title{
+
+  text-align: center;
+  color: #1DB9C3;
+  font-size: 30px;
+}
+
+.area{
+  background-color: #C32BAD;
+  width:30%;
+  margin : 50px auto;
+  border-radius: 10px;
+
+
+
+}
+.square
+{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 20px ;
+  border-radius: 30px;
+  border: solid 10px ;
+
+}
+.red{  background-color: red;}
+.yellow{  background-color: yellow;}
+.green{  background-color: green;}
+.blue{  background-color: blue;}
+
+.flash{
+  /*border-color: white;*/
+  box-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa;
+}
+
+/* Blue */
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+h2{color: white;}
+
+.wrong{
+  background: red;
+}
